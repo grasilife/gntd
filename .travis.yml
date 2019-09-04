@@ -3,8 +3,7 @@ language: node_js
 # nodejs版本
 node_js:
   - "10.16.0"
-cache:
-  npm: false
+cache: false
 # Cache dir config
 #sudo权限
 sudo: required
