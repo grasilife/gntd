@@ -1,12 +1,9 @@
 # 指定构建脚本执行环境为nodejs
 language: node_js
 # nodejs版本
-node_js: stable
+node_js:
+  - "10.16.0"
 # Cache dir config
-# 缓存设置的文件或者目录
-cache:
-  directories:
-    - node_modules
 #sudo权限
 sudo: required
 # Install scripts
