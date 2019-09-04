@@ -1,8 +1,10 @@
 # 指定构建脚本执行环境为nodejs
 language: node_js
+cache: false
 # nodejs版本
 node_js:
   - "10.16.0"
+
 # Cache dir config
 #sudo权限
 sudo: required
