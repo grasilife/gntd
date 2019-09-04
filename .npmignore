@@ -1,0 +1,10 @@
+/.idea/
+/.github/
+/.vscode/
+/docs/
+/mock/
+/public/
+/src/
+/tests/ 
+/testReport/
+部署指南.txt

@@ -1,0 +1,92 @@
+{
+  "name": "gntd",
+  "description": "集成式vue ui",
+  "version": "0.1.2",
+  "private": false,
+  "keywords": [
+    "Vue",
+    "UI",
+    "grasilife"
+  ],
+  "engines": {
+    "node": ">=8.9",
+    "npm": ">= 3.0.0"
+  },
+  "author": "guoqiang.fu",
+  "license": "MIT",
+  "main": "dist/gntd.umd.min",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grasilife/gntd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/grasilife/gntd/issues"
+  },
+  "homepage": "https://github.com/grasilife/gntd/blob/master/README.md",
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build:lib": "vue-cli-service build --target lib --name gntd src/components/index.js",
+    "lint": "vue-cli-service lint",
+    "test:e2e:headless": "vue-cli-service test:e2e --headless --record --key b3f3275d-4d0c-4f5d-b9c7-db76f32f7e76",
+    "test:e2e": "vue-cli-service test:e2e",
+    "test:unit": "vue-cli-service test:unit",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "peerDependencies": {
+    "vue": "^2.5.2"
+  },
+  "dependencies": {
+    "@vuepress/plugin-pwa": "^1.0.3",
+    "@vuepress/theme-vue": "^1.0.3",
+    "axios": "^0.19.0",
+    "core-js": "^2.6.5",
+    "element-ui": "^2.10.1",
+    "highlight.js": "^9.15.9",
+    "iview": "^3.4.2",
+    "jquery": "^3.4.1",
+    "js-cookie": "^2.2.0",
+    "moment": "^2.24.0",
+    "register-service-worker": "^1.6.2",
+    "video.js": "^7.6.0",
+    "videojs-flash": "^2.2.0",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.3",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-plugin-e2e-cypress": "^3.9.0",
+    "@vue/cli-plugin-eslint": "^3.9.0",
+    "@vue/cli-plugin-pwa": "^3.9.0",
+    "@vue/cli-plugin-unit-jest": "^3.9.0",
+    "@vue/cli-service": "^3.9.0",
+    "@vue/eslint-config-prettier": "^4.0.1",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "iview-loader": "^1.2.2",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "lint-staged": "^8.1.5",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.2.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-template-compiler": "^2.6.10",
+    "vuepress": "^1.0.3"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,vue}": [
+      "vue-cli-service lint",
+      "git add"
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+﻿{
+  "code": 0,
+  "data": [
+    {
+      "name": "瓜子皮",
+      "type": "可回收物",
+      "hash": "ddsdasdasdasdasdad",
+      "state": "未进行",
+      "uploadTime": "2018.01.12 01.10.12",
+      "updateTime": "2018.01.12 01.10.12",
+      "comment": "没有备注"
+    },
+    {
+      "name": "铁皮",
+      "type": "有害垃圾",
+      "hash": "ddsdasdasdasdasdad",
+      "state": "未进行",
+      "uploadTime": "2018.01.12 01.10.12",
+      "updateTime": "2018.01.12 01.10.12",
+      "comment": "没有备注"
+    },
+    {
+      "name": "奶茶",
+      "type": "湿垃圾",
+      "hash": "ddsdasdasdasdasdad",
+      "state": "未进行",
+      "uploadTime": "2018.01.12 01.10.12",
+      "updateTime": "2018.01.12 01.10.12",
+      "comment": "没有备注"
+    },
+    {
+      "name": "纸屑",
+      "type": "干垃圾",
+      "hash": "ddsdasdasdasdasdad",
+      "state": "未进行",
+      "uploadTime": "2018.01.12 01.10.12",
+      "updateTime": "2018.01.12 01.10.12",
+      "comment": "没有备注"
+    },
+    {
+      "name": "瓜子皮",
+      "type": "可回收物",
+      "hash": "ddsdasdasdasdasdad",
+      "state": "未进行",
+      "uploadTime": "2018.01.12 01.10.12",
+      "updateTime": "2018.01.12 01.10.12",
+      "comment": "没有备注"
+    },
+    {
+      "name": "铁皮",
+      "type": "有害垃圾",
+      "hash": "ddsdasdasdasdasdad",
+      "state": "未进行",
+      "uploadTime": "2018.01.12 01.10.12",
+      "updateTime": "2018.01.12 01.10.12",
+      "comment": "没有备注"
+    },
+    {
+      "name": "奶茶",
+      "type": "湿垃圾",
+      "hash": "ddsdasdasdasdasdad",
+      "state": "未进行",
+      "uploadTime": "2018.01.12 01.10.12",
+      "updateTime": "2018.01.12 01.10.12",
+      "comment": "没有备注"
+    },
+    {
+      "name": "纸屑",
+      "type": "干垃圾",
+      "hash": "ddsdasdasdasdasdad",
+      "state": "未进行",
+      "uploadTime": "2018.01.12 01.10.12",
+      "updateTime": "2018.01.12 01.10.12",
+      "comment": "没有备注"
+    },
+    {
+      "name": "瓜子皮",
+      "type": "可回收物",
+      "hash": "ddsdasdasdasdasdad",
+      "state": "未进行",
+      "uploadTime": "2018.01.12 01.10.12",
+      "updateTime": "2018.01.12 01.10.12",
+      "comment": "没有备注"
+    },
+    {
+      "name": "铁皮",
+      "type": "有害垃圾",
+      "hash": "ddsdasdasdasdasdad",
+      "state": "未进行",
+      "uploadTime": "2018.01.12 01.10.12",
+      "updateTime": "2018.01.12 01.10.12",
+      "comment": "没有备注"
+    },
+    {
+      "name": "奶茶",
+      "type": "湿垃圾",
+      "hash": "ddsdasdasdasdasdad",
+      "state": "未进行",
+      "uploadTime": "2018.01.12 01.10.12",
+      "updateTime": "2018.01.12 01.10.12",
+      "comment": "没有备注"
+    },
+    {
+      "name": "纸屑",
+      "type": "干垃圾",
+      "hash": "ddsdasdasdasdasdad",
+      "state": "未进行",
+      "uploadTime": "2018.01.12 01.10.12",
+      "updateTime": "2018.01.12 01.10.12",
+      "comment": "没有备注"
+    },
+    {
+      "name": "纸屑",
+      "type": "干垃圾",
+      "hash": "ddsdasdasdasdasdad",
+      "state": "未进行",
+      "uploadTime": "2018.01.12 01.10.12",
+      "updateTime": "2018.01.12 01.10.12",
+      "comment": "没有备注"
+    }
+  ],
+  "total": 13,
+  "msg": "success"
+}
