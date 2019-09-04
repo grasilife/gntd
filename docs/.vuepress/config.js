@@ -151,70 +151,7 @@ module.exports = {
           }
         ],
         sidebar: {
-          "/guide/": [
-            "/guide/",
-            "/guide/installation",
-            {
-              title: "基础",
-              collapsable: false,
-              children: [
-                "/guide/prototyping",
-                "/guide/creating-a-project",
-                "/guide/plugins-and-presets",
-                "/guide/cli-service"
-              ]
-            },
-            {
-              title: "开发",
-              collapsable: false,
-              children: [
-                "/guide/browser-compatibility",
-                "/guide/html-and-static-assets",
-                "/guide/css",
-                "/guide/webpack",
-                "/guide/mode-and-env",
-                "/guide/build-targets",
-                "/guide/deployment"
-              ]
-            }
-          ],
-          "/componentsDocs/": [
-            "/componentsDocs/",
-            "/componentsDocs/installation",
-            {
-              title: "组件",
-              collapsable: false,
-              children: ["/componentsDocs/button"]
-            }
-          ],
-          "/dev-guide/": [
-            "/dev-guide/plugin-dev.md",
-            {
-              title: "UI 开发",
-              collapsable: false,
-              children: [
-                "/dev-guide/ui-info.md",
-                "/dev-guide/ui-api.md",
-                "/dev-guide/ui-localization.md"
-              ]
-            }
-          ],
-          "/core-plugins/": [
-            {
-              title: "Core Vue CLI Plugins",
-              collapsable: false,
-              children: [
-                "/core-plugins/babel.md",
-                "/core-plugins/typescript.md",
-                "/core-plugins/eslint.md",
-                "/core-plugins/pwa.md",
-                "/core-plugins/unit-jest.md",
-                "/core-plugins/unit-mocha.md",
-                "/core-plugins/e2e-cypress.md",
-                "/core-plugins/e2e-nightwatch.md"
-              ]
-            }
-          ]
+
         }
       }
     }
